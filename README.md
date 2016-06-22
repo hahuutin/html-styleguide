@@ -54,7 +54,7 @@ Specify a lang attribute on the root html element. Help speech synthesis tools t
 
 Quickly and easily ensure proper rendering of your content by declaring an explicit character encoding. When doing so, you may avoid using character entities in your HTML, provided their encoding matches that of the document (generally UTF-8).
 
-```
+``` html
 <head>
     <meta charset="UTF-8">
 </head>
@@ -96,7 +96,7 @@ __Good__
 
 ### Optional closing tags
 
-Don’t omit optional closing tags like </li>, </body>
+Don’t omit optional closing tags like `</li>`, `</body>`
 
 
 ### Semantic tags
@@ -189,7 +189,7 @@ __Good__
 
 HTML elements can be identified by using the id and class attributes. An ID is a unique identifier for that particular element; no other element on the page should use the same ID.
 
-This uniqueness allows <label> elements to associate themselves with a particular input and URLs to jump to a particular scroll position on a page.
+This uniqueness allows `<label>` elements to associate themselves with a particular input and URLs to jump to a particular scroll position on a page.
 
 Classes are not unique. The same class can be used on multiple elements within a page, and a single element can have more than one class, in a space delimited list.
 
@@ -204,7 +204,7 @@ Classes are not unique. The same class can be used on multiple elements within a
 
 ### Paragraphs
 
-Avoid using <br> tags to separate paragraphs or lines of text. Use <p> instead with proper opening and closing elements.
+Avoid using `<br>` tags to separate paragraphs or lines of text. Use `<p>` instead with proper opening and closing elements.
 
 
 ### Tables
