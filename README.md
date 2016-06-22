@@ -1,6 +1,6 @@
-## HTML coding style guide
+# HTML coding style guide
 
-### Table of contents
+## Table of contents
 
 + [Indentation](#indentation)
 + [Doctype](#doctype)
@@ -299,7 +299,7 @@ __Good__
 ```
 
 
-### References
+#### References
 
 + [Code Guide by @mdo](http://codeguide.co/#html)
 + [Some HTML, CSS and JS best practices](https://github.com/bendc/frontend-guidelines)
