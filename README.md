@@ -1,5 +1,11 @@
 # HTML coding style guide
 
+## Translations
+
+Translations of this style guide available for:
+
++ [Vietnamese](https://github.com/hahuutin/html-styleguide/i18n/vi-VN.md)
+
 ## Table of contents
 
 + [Indentation](#indentation)
@@ -26,17 +32,23 @@
 
 ### Indentation
 
-Use soft tabs with space - they're the only way to guarantee code renders the same in any environment (Preference: 4 spaces).
+Use soft tabs with space - they're the only way to guarantee code renders the same in any environment.
+(Preference: 4 spaces).
 
 
 ### Doctype
 
 Enforce standards mode and more consistent rendering in every browser possible with this simple doctype at the beginning of every HTML page.
 
+``` html
+<!DOCTYPE html>
+```
+
 
 ### Be consistent in single quote, double quote
 
-Be consistence when using double quote or single quote for attributes (Preference: double quote "").
+Be consistence when using double quote or single quote for attributes.
+(Preference: double quote "").
 
 
 ### Language attribute
@@ -74,6 +86,14 @@ Internet Explorer supports the use of a document compatibility `<meta>` tag to s
 
 Per HTML5 spec, typically there is no need to specify a `type` when including CSS and JavaScript files as `text/css` and `text/javascript` are their respective defaults.
 
+``` html
+<!-- External CSS -->
+<link rel="stylesheet" href="code-guide.css">
+
+<!-- JavaScript -->
+<script src="code-guide.js"></script>
+```
+
 
 ### Self-closing
 
@@ -101,7 +121,7 @@ Don’t omit optional closing tags like `</li>`, `</body>`
 
 ### Semantic tags
 
-HTML5 provides us with lots of semantic elements aimed to describe precisely the content. Make sure you understand the semantics of the elements you're using
+HTML5 provides us with lots of semantic elements aimed to describe precisely the content. Make sure you understand the semantics of the elements you're using.
 
 __Bad__
 
@@ -282,10 +302,10 @@ __Good__
 
 Accessibility shouldn't be an afterthought. You don't have to be a WCAG expert to improve your website, you can start immediately by fixing the little things that make a huge difference, such as:
 
-+ Learning to use the alt attribute properly
-+ Making sure your links and buttons are marked as such (no `<div class=button>` atrocities)
-+ Not relying exclusively on colors to communicate information
-+ Explicitly labelling form controls
++ Learning to use the `alt` attribute properly.
++ Making sure your links and buttons are marked as such (no `<div class=button>` atrocities).
++ Not relying exclusively on colors to communicate information.
++ Explicitly labelling form controls.
 
 __Bad__
 
