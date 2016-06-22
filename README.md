@@ -135,12 +135,13 @@ __Good__
 ### Attribute order
 
 HTML attributes should come in this particular order for easier reading of code:
-    1. `class`
-    2. `id`, `name`
-    3. `data-*`
-    4. `src`, `for`, `type`, `href`, `value`
-    5. `title`, `alt`
-    6. `role`, `aria-*`
+
+1. `class`
+2. `id`, `name`
+3. `data-*`
+4. `src`, `for`, `type`, `href`, `value`
+5. `title`, `alt`
+6. `role`, `aria-*`
 
 ``` html
 <a class="..." id="..." data-toggle="modal" href="#">
