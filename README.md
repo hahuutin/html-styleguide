@@ -4,7 +4,7 @@
 
 Translations of this style guide available for:
 
-+ [Vietnamese](https://github.com/hahuutin/html-styleguide/i18n/vi-VN.md)
++ [Vietnamese](https://github.com/hahuutin/html-styleguide/tree/master/i18n/vi-VN.md)
 
 ## Table of contents
 
