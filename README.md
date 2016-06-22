@@ -10,15 +10,15 @@
 + [IE compatibility mode](#ie-compatibility-mode)
 + [CSS and JavaScript includes](#css-and-javascript-includes)
 + [Self-closing](#self-closing)
-+ [Optional Closing Tags](#optional-closing-tags)
++ [Optional closing tags](#optional-closing-tags)
 + [Semantic tags](#semantic-tags)
 + [Attribute order](#attribute-order)
-+ [Boolean Attribute](#boolean-attribute)
-+ [Attribute Values](#attribute-value)
++ [Boolean attribute](#boolean-attribute)
++ [Attribute value](#attribute-value)
 + [IDs vs. Classes](#ids-vs-classes)
 + [Paragraphs](#paragraphs)
 + [Tables](#tables)
-+ [Input Label](#input-label)
++ [Input label](#input-label)
 + [Reducing markup](#reducing-markup)
 + [Accessibility](#accessibility)
 + [References](#references)
@@ -169,7 +169,7 @@ A boolean attribute is one that needs no declared value. XHTML required you to d
 ```
 
 
-### Attribute Values
+### Attribute Value
 
 Use quotes to surround all attribute values in HTML, despite quotes being optional in HTML5. This maintains consistency between attribute values that contain whitespace and those that don't.
 
