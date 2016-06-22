@@ -24,22 +24,22 @@
 + [References](#references)
 
 
-#### Indentation
+### Indentation
 
 Use soft tabs with space - they're the only way to guarantee code renders the same in any environment (Preference: 4 spaces).
 
 
-#### Doctype
+### Doctype
 
 Enforce standards mode and more consistent rendering in every browser possible with this simple doctype at the beginning of every HTML page.
 
 
-#### Be consistent in single quote, double quote
+### Be consistent in single quote, double quote
 
 Be consistence when using double quote or single quote for attributes (Preference: double quote "").
 
 
-#### Language attribute
+### Language attribute
 
 Specify a lang attribute on the root html element. Help speech synthesis tools to determine what pronunciations to use, translation tools to determine what rules to use.
 
@@ -50,7 +50,7 @@ Specify a lang attribute on the root html element. Help speech synthesis tools t
 ```
 
 
-#### Character encoding
+### Character encoding
 
 Quickly and easily ensure proper rendering of your content by declaring an explicit character encoding. When doing so, you may avoid using character entities in your HTML, provided their encoding matches that of the document (generally UTF-8).
 
@@ -61,7 +61,7 @@ Quickly and easily ensure proper rendering of your content by declaring an expli
 ```
 
 
-#### IE compatibility mode
+### IE compatibility mode
 
 Internet Explorer supports the use of a document compatibility `<meta>` tag to specify what version of IE the page should be rendered as. Unless circumstances require otherwise, it's most useful to instruct IE to use the latest supported mode with edge mode.
 
@@ -70,12 +70,12 @@ Internet Explorer supports the use of a document compatibility `<meta>` tag to s
 ```
 
 
-#### CSS and JavaScript includes
+### CSS and JavaScript includes
 
 Per HTML5 spec, typically there is no need to specify a `type` when including CSS and JavaScript files as `text/css` and `text/javascript` are their respective defaults.
 
 
-#### Self-closing
+### Self-closing
 
 Don't include a trailing slash in self-closing elements like `img`, `link`, `input`, `meta`, etc
 
@@ -94,12 +94,12 @@ __Good__
 ```
 
 
-#### Optional closing tags
+### Optional closing tags
 
 Don’t omit optional closing tags like </li>, </body>
 
 
-#### Semantic tags
+### Semantic tags
 
 HTML5 provides us with lots of semantic elements aimed to describe precisely the content. Make sure you understand the semantics of the elements you're using
 
@@ -132,7 +132,7 @@ __Good__
 ```
 
 
-#### Attribute order
+### Attribute order
 
 HTML attributes should come in this particular order for easier reading of code:
     1. `class`
@@ -153,7 +153,7 @@ HTML attributes should come in this particular order for easier reading of code:
 ```
 
 
-#### Boolean Attribute
+### Boolean Attribute
 
 A boolean attribute is one that needs no declared value. XHTML required you to declare a value, but HTML5 has no such requirement.
 
@@ -168,7 +168,7 @@ A boolean attribute is one that needs no declared value. XHTML required you to d
 ```
 
 
-#### Attribute Values
+### Attribute Values
 
 Use quotes to surround all attribute values in HTML, despite quotes being optional in HTML5. This maintains consistency between attribute values that contain whitespace and those that don't.
 
@@ -185,7 +185,7 @@ __Good__
 ```
 
 
-#### IDs vs Classes
+### IDs vs Classes
 
 HTML elements can be identified by using the id and class attributes. An ID is a unique identifier for that particular element; no other element on the page should use the same ID.
 
@@ -202,12 +202,12 @@ Classes are not unique. The same class can be used on multiple elements within a
 ```
 
 
-#### Paragraphs
+### Paragraphs
 
 Avoid using <br> tags to separate paragraphs or lines of text. Use <p> instead with proper opening and closing elements.
 
 
-#### Tables
+### Tables
 
 Tables should not be used for page layout, only use them when you need to display tabular data.
 
@@ -231,7 +231,7 @@ Use the `<thead>` and `<tbody>` elements to denote which row contains column hea
 ```
 
 
-#### Input Label
+### Input Label
 
 All input fields should be associated with a `<label>` element. The for attribute of the `<label>` element should contain the ID of the corresponding input field. This means the input field will receive focus when a user clicks the label and also enables screen readers for sight-impaired users to read out an appropriate description of the input field.
 
@@ -258,7 +258,7 @@ __Good__
 ```
 
 
-#### Reducing markup
+### Reducing markup
 
 Whenever possible, avoid superfluous parent elements when writing HTML. Many times this requires iteration and refactoring, but produces less HTML.
 
@@ -277,7 +277,7 @@ __Good__
 ```
 
 
-#### Accessibility
+### Accessibility
 
 Accessibility shouldn't be an afterthought. You don't have to be a WCAG expert to improve your website, you can start immediately by fixing the little things that make a huge difference, such as:
 
@@ -299,7 +299,7 @@ __Good__
 ```
 
 
-#### References
+### References
 
 + [Code Guide by @mdo](http://codeguide.co/#html)
 + [Some HTML, CSS and JS best practices](https://github.com/bendc/frontend-guidelines)
